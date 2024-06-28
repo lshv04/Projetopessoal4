@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 4.5rem;
+    line-height: 1.05;
+    margin-bottom: 12px;
+    font-weight: 900;
+}
+
+/* navbar */
+
+.nav-link {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #767676;
+    margin: 0;
+}
+li {
+    transition: .2s ease-in;
+}
+li:hover {
+
+    transform: scale(1.1);
+    color: 000;
+}
+.nav-item {
+    margin-right: 5vh;
+}
+.navbar-brand:hover {
+    transform: none;
+}
+.navbar-brand {
+    margin: 0;
+}
+.but {
+    position: relative;
+    width: 129px;
+    height: 48px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    transition: .2s ease-in-out;
+    background-color: #04ddb2;
+    color: #fff !important;
+    text-decoration: none;
+    border: none;
+}
+.navbar-toggler {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #eff0f2;
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+}
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.but:hover {
+    transform: scale(1.1);
+}
+.container-fluid {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/* header */
+
+header p {
+    position: relative;
+    font-size: 1.75rem;
+    line-height: 1.45;
+    color: #333;
+    font-weight: 400;
+}
+.header1 {
+    padding-top: 150px;
+    margin: 0;
+}
+span {
+    color: #04ddb2
+}
+
+/* section */
+
+.cont1 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    transition: .4s ease;
+}
+.cont1 img:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 75px 75px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.but2 {
+    width: 200px;
+    height: 54px;
+    border: none;
+    border-radius: 32px;
+    background-color: #04ddb2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    transition: .4s;
+    box-shadow: 0 10px 20px -8px transparent;
+}
+.but2:hover {
+    transform: scale(1.1);
+}
+#section1 {
+    margin-top: 8vh;
+}
+#section2 {
+    margin-bottom: 12vh;
+}
+.cont2 {
+    margin-top: 12vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding-bottom: 20vh;
+}
+
+/* footer */
+
+.fotimg {
+    margin-bottom: 30px;
+}
+.footcont {
+    display: flex;
+    flex-direction: column;
+}
+footer p,
+a {
+    margin-bottom: 24px;
+    font-size: 1.rem;
+
+    font-weight: 600;
+    color: #333333;
+}
+h5 {
+    margin-bottom: 30px;
+}
+i {
+
+    font-size: 35px;
+    margin: 0 8px;
+    color: #04ddb2;
+}
+.icons {
+    display: flex;
+}
+footer {
+    padding: 0 80px 60px;
+}
+footer a {
+    font-size: 1.rem;
+    font-weight: 600;
+    color: #333333;
+    text-decoration: none;
+    transition: .2s ease-in;
+}
+footer a:hover {
+    transform: scale(1.05);
+}
+.icons2 {
+    transition: .2s ease-in;
+}
+.icons2:hover {
+    transform: scale(1.25);
+}
+@media (max-width: 991px) {
+    .but {
+        width: 100%;
+        font-size: 25px;
+    }
+    .nav-link {
+
+        font-size: 20px;
+        margin: 2vh;
+    }
+    .navbar {
+        background-color: #fff;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 38px;
+        margin-bottom: 8px;
+    }
+    header p {
+        font-size: 20px;
+    }
+    .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .cont2 {
+        margin-top: 0;
+        padding-bottom: 5vh;
+    }
+    .but2 {
+        width: 148px;
+        height: 42px;
+        font-size: 18px;
+    }
+}
